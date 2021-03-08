@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncfusionAngularASPNETMVC", "SyncfusionAngularASPNETMVC.csproj", "{7432CAFE-0CC7-4D6C-9CD8-92E23CE1AE7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7432CAFE-0CC7-4D6C-9CD8-92E23CE1AE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7432CAFE-0CC7-4D6C-9CD8-92E23CE1AE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7432CAFE-0CC7-4D6C-9CD8-92E23CE1AE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7432CAFE-0CC7-4D6C-9CD8-92E23CE1AE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC77999-5A38-4E26-81F5-7E6E6832BE6E}
+	EndGlobalSection
+EndGlobal
