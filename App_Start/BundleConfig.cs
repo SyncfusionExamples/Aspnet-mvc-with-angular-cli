@@ -9,9 +9,9 @@ namespace SyncfusionAngularASPNETMVC
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new Bundle("~/bundles/clientapp").Include(
-                "~/Scripts/ClientApp/runtime.*",
-                "~/Scripts/ClientApp/polyfills.*",
-                "~/Scripts/ClientApp/main.*"));
+    "~/Scripts/ClientApp/runtime.*",
+    "~/Scripts/ClientApp/polyfills.*",
+    "~/Scripts/ClientApp/main.*"));
 
             bundles.Add(new StyleBundle("~/Content/clientapp").Include(
                       "~/Scripts/ClientApp/styles.*"));
@@ -27,12 +27,14 @@ namespace SyncfusionAngularASPNETMVC
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+            bundles.Add(new Bundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+
         }
     }
 }

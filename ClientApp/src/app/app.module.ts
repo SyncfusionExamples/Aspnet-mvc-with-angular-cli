@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
-
 import { AppComponent } from './app.component';
+import { GridModule } from '@syncfusion/ej2-angular-grids';
 
 @NgModule({
   declarations: [
@@ -11,7 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    ButtonModule
+    GridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
